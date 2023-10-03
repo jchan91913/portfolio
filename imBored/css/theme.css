@@ -1,0 +1,63 @@
+select {
+	width: auto;
+}
+
+
+ body {
+ 	padding-top: 65px;
+ 	padding-bottom: 65px;
+    background-color: #D0D0D0;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+img {
+	object-fit: contain;
+}
+
+html {
+	text-align: center;
+}
+
+
+.typcn-social-twitter {
+	color: #D0D0D0;
+	font-size: 25px;
+	float: right;
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.typcn-social-instagram {
+	color: #D0D0D0;
+	font-size: 25px;
+	float: right;
+	padding-left: 10px;
+}
+
+.typcn-social-facebook {
+	color: #D0D0D0;
+	font-size: 25px;
+	float: right;
+	padding-left: 10px;
+}
+
+.footerAnchor {
+	color: inherit;
+}
+
+.copyright {
+	color: #D0D0D0;
+	font-size: 0.7em;
+	position: absolute;
+	left: 5px;
+	bottom: 8px;
+}
+
+
+
+

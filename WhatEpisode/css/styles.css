@@ -1,0 +1,268 @@
+#header {
+	color: #cdcdcd;
+	font-weight: 600;
+}
+
+@font-face {
+  font-family: BEBAS; /*a name to be used later*/
+  src: url(..\\font\\BEBAS.ttf); /*URL to font*/
+}
+
+.container {
+	text-align: center;
+	background-color: #222;
+	padding-bottom: 3%;
+}
+
+#content, html {
+	background-color: #141414;
+}
+
+.what {
+	color: #a62929;
+	font-weight: 600;
+}
+
+.what:hover {
+	color: #d14747;
+}
+
+.episode:hover {
+	color: #e6e6e6;
+}
+
+.episode, li, #loginTxt {
+	color: #cdcdcd;
+	font-weight: 600;
+}
+
+#loginBtn {
+	background-color: #a62929;
+	float: right;
+	margin-right: 1%;
+}
+
+#loginBtn:hover {
+	background-color: #8f2424;
+}
+
+#signupBtn {
+	float: right;
+}
+
+#logoutBtn {
+	display: none;
+}
+
+#showsNavItem {
+	display: none;
+}
+
+#moviesNavItem {
+	display: none;
+}
+
+#userNavItem {
+	display: none;
+}
+
+#watchedNavItem {
+	display: none;
+}
+
+#aboutContent {
+	color: #cdcdcd;
+}
+
+input[type="email"], input[type="password"] {
+	border: 0;
+	background-color: #141414;
+	border-radius: 3px;
+	color: #cdcdcd;
+	margin-bottom: 10px;
+	width: 50%;
+	font-size: 30px;
+	font-style: italic;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: gray;
+}
+
+footer {
+	background-color: #222;
+}
+
+.typcn-social-twitter {
+	padding-right: 25px;
+}
+
+.copyright {
+	color: #9d9d9d;
+	position: absolute;
+	bottom: 15px;
+	font-size: 0.8em;
+}
+
+a.list-group-item {
+	background-color: #222;
+	border-color: gray;
+	color: #cdcdcd !important;
+	width: 40%;
+	display: inline-block;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	overflow: auto;
+}
+
+.tvImage {
+	width: 100px;
+	height: 150px;
+	margin-right: 4%;
+	float:left;
+}
+
+.glyphicon-plus-sign {
+	color: #3e8e3e;
+	font-size: 2.5em;
+	float: right;
+}
+
+.glyphicon-plus-sign:hover {
+	color: #71c171;
+	cursor: pointer;
+}
+
+.glyphicon-info-sign {
+	font-size: 1.5em;
+	float: left;
+	margin-top: 1.5%;
+}
+
+.glyphicon-info-sign:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.glyphicon-remove-circle {
+	color: #a62929;
+	font-size: 2.5em;
+	float: right;
+}
+
+.glyphicon-remove-circle:hover {
+	color: #d14747;
+	cursor: pointer;
+}
+
+a.list-group-item:hover {
+	border-color: white;
+	cursor: default;
+}
+
+a.list-group-item:visited {
+	background-color: #222 !important;
+}
+
+.list-group-item:last-child {
+	margin-bottom: 2% !important;
+}
+
+#homepage-header {
+	font-family: BEBAS;
+	text-align: center;
+	font-size: 100px;
+	color: #e6e6e6;
+	-ms-transform: rotate(-9deg); /* IE 9 */
+  -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+  transform: rotate(-9deg);
+  animation: blinker 8s linear infinite;
+}
+
+#homepage-info {
+	font-family: BEBAS;
+	text-align: center;
+	font-size: 50px;
+	color: #e6e6e6;
+	-ms-transform: rotate(-9deg); /* IE 9 */
+  -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+  transform: rotate(-9deg);
+  animation: blinker 8s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.4; }
+}
+
+#homepage-info:hover {
+	color: #ffffff;
+}
+
+#homepage-content {
+	margin-top: 5%;
+	padding-top: 10%;
+	padding-bottom: 15%;
+	opacity: 0.8;
+	background-image: url("../img/movie-theatre.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fa-user {
+	font-size: 20px !important;
+	margin-right: -20px;
+}
+
+.dropdown-menu {
+	background-color: #222 !important;
+}
+
+.dropdown-menu > li > a {
+	color: #9d9d9d !important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	background-color: #141414 !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #222 !important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #222 !important;
+	color: white !important;
+	font-weight: 600;
+}
+
+#movieDbLogo {
+	width: 120px;
+	float: right;
+}
+
+.typcn-social-twitter:hover {
+	color: #00aced;
+}
+
+.typcn-social-facebook:hover {
+	color: #3B5998;
+}
+
+button {
+	font-family: BEBAS !important;
+}
+
+li > a {
+	font-family: BEBAS !important;
+}
+
+@media only screen and (max-width: 650px) {
+  #homepage-header{
+    font-size: 60px;
+  }
+
+	#homepage-info {
+		font-size: 30px;
+	}
+}
